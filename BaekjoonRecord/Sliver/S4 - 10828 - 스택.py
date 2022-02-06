@@ -41,7 +41,7 @@ def push(x):
 
 
 for i in range(N):
-    order = input().split()
+    order = sys.stdin.readline().split()
     if order[0] == 'push':
         push(order[1])
     elif order[0] == 'pop':
@@ -53,4 +53,4 @@ for i in range(N):
     else:
         top()
 
-# 시간초과
+# 시간초과 - import sys를 애용하자
