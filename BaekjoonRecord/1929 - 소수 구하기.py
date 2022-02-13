@@ -2,17 +2,37 @@ import sys
 
 a, b = map(int, sys.stdin.readline().split())
 
-num_list = [num for num in range(a, b+1) if num == 2 or num % 2 == 1]
+now = []
+for _ in range(a, b+1):
+    now.append(_)
 
-num_set = set(num_list)
+while len(now) != 0:
+    count = 0
+    for num1 in range(1, now[0]):
+        if now[0] % num1 == 0:
+            count += 1
 
-erase_list = []
-for num in range(2, a+1):
-    erase_list.extend(range(num*2, b+1, num))
-    erase_set = set(erase_list)
-    num_set -= erase_set
+    if count == 1:
+        print(now[0])
+        for num2 in range(a, b+1):
+            if num2 % now[0] == 0:
+                now.remove(num2)
 
-result = list(num_set)
+    now.reverse()
+    now.pop()
+    now.reverse()
 
-for res in result:
-    print(res)
+# iso = []
+#
+# for num in range(a, b + 1):
+#     count = 0
+#     if num >= 1 and (num == 2 or num % 2 != 0) and num not in iso:
+#         for num1 in range(1, num):
+#             if num % num1 == 0:
+#                 count += 1
+#
+#         if count == 1:
+#             print(num)
+#             for num2 in range(a, b+1):
+#                 if num2 % num1 == 0:
+#                     iso.append(num2)

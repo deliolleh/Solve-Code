@@ -14,9 +14,11 @@ for num in range(1, N+1):
     for n in str(num):
         if n in claps_num:
             clap += 1
+
     # clap이 없으면 숫자 그대로 출력
     if clap == 0:
         print(num, end=' ')
+
     # clap이 있으면 clap한 횟수만큼 -출력
     else:
-        print('-'*clap, end=' ')
+        print('-' * clap, end=' ')

@@ -10,8 +10,10 @@ for _ in range(1, T+1):
 
     # 주어진 날
     days = int(input())
+
     # 각 날의 가격
     price = list(map(int, input().split()))
+
     # 전체 중 최고가에 팔 때가 가장 이득이 될 때
     max_price = max(price)
 
@@ -32,3 +34,9 @@ for _ in range(1, T+1):
     money += price[-1] * have
 
     print(f'#{_} {money}')
+
+# 1. 파는 날보다 다음 날이 더 비싸면 팔지말고 사야한다
+#
+# 2. 파는 날보다 이후에 더 비싼 날이 있다면 그 때 사야한다
+#
+# 3. 한 번 비싼 날에 팔았다면 그 날 이후의 가장 비싼 값을 찾아 다시 계산한다

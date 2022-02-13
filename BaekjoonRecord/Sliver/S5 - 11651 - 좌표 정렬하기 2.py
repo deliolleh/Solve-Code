@@ -11,4 +11,3 @@ order.sort(key=itemgetter(1, 0))
 
 for o in order:
     print(*o)
-    
