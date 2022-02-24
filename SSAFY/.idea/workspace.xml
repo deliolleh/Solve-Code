@@ -2,37 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bddcbf41-dbf1-45e8-99c6-a2e0bf90f16c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/10989 - 수 정렬하기3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/11650 - 좌표 정렬하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/11723 - 집합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/1463 - 1로 만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/1620 - 나는야 포켓몬 마스터.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/1654 - 랜선 자르기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/1920 - 수 찾기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/1929 - 소수 구하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/2108 - 통계학.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/7568 - 덩치.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B2 - 13419 - 탕수육.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B2 - 15829 - Hashing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B3 - 16675 - 두 개의 손.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B3 - 20540 - 연길이의 이상형.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 10773 - 제로.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 10845 - 큐.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 1676 - 팩토리얼 0의 개수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 1764 - 듣보잡.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 2609 - 최대공약수와 최소공배수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 2751 - 수 정렬하기 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 9012 - 괄호.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S5 - 10814 -  나이순 정렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/10828 - 스택.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 10828 - 스택.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/1065 - 한수.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 1065 - 한수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/1978 - 소수 찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Sliver/S4 - 1978 - 소수 찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B2 - 2605 - 줄 세우기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B5 - 2845 - 파티가 끝나고 난 뒤.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/2527 - 직사각형.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA/Code_Problem/D3/11315 - 오목 판정.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 2750 - 수 정렬하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 2750 - 수 정렬하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 2869 - 달팽이는 올라가고 싶다.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 2869 - 달팽이는 올라가고 싶다.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B4 - 1712 - 손익분기점.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B4 - 1712 - 손익분기점.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/1012 - 유기농 배추.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/1012 - 유기농 배추.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/13333 - Q 인덱스.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 13333 - Q 인덱스.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/S5 - 26353 - 수 이어가기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/S5 - 2633 - 수 이어가기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SSAFY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SSAFY.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/2차원 Delta-Search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/2차원 Delta-Search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/부분집합.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/부분집합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/연습문제.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/연습문제.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/연습문제2_부분집합.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/연습문제2_부분집합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/이진검색.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/이진검색.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/전치행렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/전치행렬.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWEA/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -51,7 +53,117 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SWEA" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\SSAFY\0216" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.연습3_ 패턴매칭">
+    <configuration name="연습3_ 패턴매칭" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0216" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0216/연습3_ 패턴매칭.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9367 - 점점 커지는 당근의 개" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0216" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0216/9367 - 점점 커지는 당근의 개.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9489 - 고대 유적" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0216" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0216/9489 - 고대 유적.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="atoi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0216" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0216/atoi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="itoa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0216" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0216/itoa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SSAFY" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,6 +185,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.연습3_ 패턴매칭" />
+        <item itemvalue="Python.itoa" />
+        <item itemvalue="Python.atoi" />
+        <item itemvalue="Python.9489 - 고대 유적" />
+        <item itemvalue="Python.9367 - 점점 커지는 당근의 개" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,6 +213,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/0216/연습3_ 패턴매칭.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,13 +1,14 @@
 N = int(input())
-arr = list(map(int, input().split()))
 
-line = [0] * N
-for i in range(0, 5):
-    if line[N - 1 - arr[i]] == 0:
-        line[N - 1 - arr[i]] = i + 1
-    else:
-        for j in range(N - 1 - arr[i]):
-            line[j] = line[j + 1]
-        line[N - 1 - arr[i]] = i + 1
+arr = [0] * N
 
-print(*line)
+pick = list(map(int, input().split()))
+
+for i in range(N):
+    if arr[-1 - pick[i]] != 0:
+        for idx in range(1, N - pick[i]):
+            arr[idx - 1] = arr[idx]
+
+    arr[-1 - pick[i]] = i + 1
+
+print(*arr)

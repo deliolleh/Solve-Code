@@ -1,6 +1,9 @@
 fixed_cost, product_cost, benefit = map(int, input().split())
 
-# 이익이 가변비용보다 같거나 많으면 적자 => 이익 발생 불가
+
+# fixed_cost + product_cost * n < benefit * n => 이익이 생긴다
+# 알고리즘 수업 => 시간복잡도(O(n^2))
+# 이익이 가변비용보다 같거나 적으면 적자 => 이익 발생 불가
 if product_cost >= benefit:
     print(-1)
 else:

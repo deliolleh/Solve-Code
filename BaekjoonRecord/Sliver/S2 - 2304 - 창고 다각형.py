@@ -1,6 +1,6 @@
 N = int(input())
 
-arr = [0] * 1000
+arr = [0] * 1001
 
 max_h = 0
 max_h_idx = 0

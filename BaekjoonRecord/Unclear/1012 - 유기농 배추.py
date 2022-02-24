@@ -11,18 +11,15 @@ for tc in range(TC):
         x, y = map(int, input().split())
         field[y][x] = 1
 
-        if x != 0 and field[y][x-1] == 1:
+        if x != 0 and field[y][x - 1] == 1:
             continue
-
-        if y != 0 and field[y-1][x] == 1:
+        elif x != r - 1 and field[y][x + 1] == 1:
             continue
-
-        if x != r-1 and field[y][x+1] == 1:
+        elif y != 0 and field[y - 1][x] == 1:
             continue
-
-        if y != c-1 and field[y+1][x] == 1:
+        elif y != c - 1 and field[y + 1][x] == 1:
             continue
-
-        count += 1
+        else:
+            count += 1
 
     print(count)
