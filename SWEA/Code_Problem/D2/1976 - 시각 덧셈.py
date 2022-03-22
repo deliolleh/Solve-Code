@@ -1,4 +1,3 @@
-# 테스트 케이스 수
 T = int(input())
 
 for t in range(1, T+1):

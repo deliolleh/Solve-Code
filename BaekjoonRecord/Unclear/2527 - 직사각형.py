@@ -1,15 +1,9 @@
 for tc in range(4):
     income = list(map(int, input().split()))
 
-    A = income[:4]
-    B = income[4:]
+    a = income[:4]
+    b = income[4:]
 
-    for i in range(4):
-        if A[i] > B[i]:
-            print('a')
-        elif A[i] < B[i]:
-            print('b')
-        else:
-            print('same')
-
+    if a[0] > b[0]:
+        a, b = b, a
 

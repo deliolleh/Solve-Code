@@ -1,5 +1,3 @@
-import sys
-
 K = int(input())
 
 # 확정 리스트, 확인 변수

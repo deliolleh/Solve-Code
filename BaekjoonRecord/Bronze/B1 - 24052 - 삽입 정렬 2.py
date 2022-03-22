@@ -2,7 +2,7 @@ import sys
 
 
 # 받은 길이 n의 a를 정렬할 때 정렬 횟수가 k인 것을 찾는 함수
-def selection_sort_kth(a, n, k):
+def insert_sort_kth(a, n, k):
     # 변수 초기화
     cnt = 0
     # 예시에는 1~N => 인덱스 기준 0 ~ n-1
@@ -36,4 +36,4 @@ N, K = map(int, input().split())
 
 arr = list(map(int, sys.stdin.readline().split()))
 
-print(*selection_sort_kth(arr, N, K))
+print(*insert_sort_kth(arr, N, K))

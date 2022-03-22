@@ -1,4 +1,3 @@
-# Test Case
 TC = int(input())
 
 for tc in range(1, TC+1):
@@ -45,5 +44,5 @@ for tc in range(1, TC+1):
             money[7] = cash // 10
             cash %= 10
 
-    # 리스트를 튜플 형태로
+    # Unpacking
     print(*money)
