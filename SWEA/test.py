@@ -1,1 +1,5 @@
-print(64 ** (1/3))
+from collections import deque
+
+a = deque()
+a.append(1)
+print(a[-1])
