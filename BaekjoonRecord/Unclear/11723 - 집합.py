@@ -1,28 +1,24 @@
-# 연산 횟수 M
-M = int(input())
+import sys
 
-# 빈 셋 s 생성
-s = set()
+ex = [0] * 21
 
-for i in range(M):
-    A, *B = input().split()
-    if len(B) != 0:
-        num = int(B[0])
-    if A == 'add':
-        s.add(num)
-    elif A == 'remove':
-        s.remove(num)
-    elif A == 'check':
-        if num in s:
-            print(1)
-        else:
-            print(0)
-    elif A == 'toggle':
-        if num in s:
-            s.remove(num)
-        else:
-            s.add(num)
-    elif A == 'all':
-        s = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
-    elif A == 'empty':
-        s = set()
+for tc in range(int(input())):
+    order = list(sys.stdin.readline().split())
+
+    if order[0] == 'add':
+        ex[int(order[1])] = 1
+
+    elif order[0] == 'remove' and order[1] in ex:
+        ex[int(order[1])] = 0
+
+    elif order[0] == 'check':
+        print(ex[int(order[1])])
+
+    elif order[0] == 'toggle':
+        ex[int(order[1])] = abs(ex[int(order[1])] - 1)
+
+    elif order[0] == 'all':
+        ex = [1] * 21
+
+    else:
+        ex = [0] * 21

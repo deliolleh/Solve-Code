@@ -1,10 +1,13 @@
+import sys
+
 N = int(input())
 
-sort_list = []
-for n in range(N):
-    sort_list.append(int(input()))
+arr = [0] * 10001
 
-sort_list.sort()
+for i in range(N):
+    num = int(sys.stdin.readline().rstrip())
+    arr[num] += 1
 
-for one in sort_list:
-    print(one)
+for idx in range(10001):
+    for time in range(arr[idx]):
+        print(idx)
