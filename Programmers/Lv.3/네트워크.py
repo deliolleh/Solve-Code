@@ -25,3 +25,26 @@ def solution(n, computers):
             bfs(i)
 
     return answer
+
+
+# --------------------------------------------------------
+
+
+def solution2(n, computers):
+    answer = 0
+    visited = [0] * n
+
+    def link(now):
+        for idx in range(n):
+            if computers[now][idx] == 1 and not visited[idx]:
+                visited[idx] = 1
+                link(idx)
+
+    for i in range(n):
+        for j in range(n):
+            if computers[i][j] == 1 and not visited[i]:
+                visited[i] = 1
+                link(i)
+                answer += 1
+
+    return answer
