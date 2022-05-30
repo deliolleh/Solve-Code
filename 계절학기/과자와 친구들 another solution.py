@@ -1,5 +1,4 @@
 from copy import deepcopy
-import time
 
 
 def solution(x, y, n, m, arr):
@@ -41,10 +40,9 @@ def solution(x, y, n, m, arr):
     return arr
 
 
-start = time.time()
 file = open('eval_input.txt', 'r', encoding='utf8')
 output = open('eval_output.txt', 'w')
-for time in range(50):
+for test in range(50):
     cnt, refill, row, col = map(int, file.readline().split())
     array = [list(map(int, file.readline().split())) for _ in range(col)]
     result = solution(row, col, cnt, refill, array)
@@ -62,5 +60,4 @@ for time in range(50):
     # array = [list(map(int, input().split())) for _ in range(col)]
     # print(solution(row, col, cnt, refill, array))
 
-print("time :", time.time() - start)
 output.close()
