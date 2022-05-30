@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bddcbf41-dbf1-45e8-99c6-a2e0bf90f16c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B2 - 2605 - 줄 세우기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B5 - 2845 - 파티가 끝나고 난 뒤.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/2527 - 직사각형.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SWEA/Code_Problem/D3/11315 - 오목 판정.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 2750 - 수 정렬하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 2750 - 수 정렬하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 2869 - 달팽이는 올라가고 싶다.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 2869 - 달팽이는 올라가고 싶다.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B4 - 1712 - 손익분기점.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B4 - 1712 - 손익분기점.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/1012 - 유기농 배추.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/1012 - 유기농 배추.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/13333 - Q 인덱스.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Bronze/B1 - 13333 - Q 인덱스.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/S5 - 26353 - 수 이어가기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/Unclear/S5 - 2633 - 수 이어가기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaekjoonRecord/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BaekjoonRecord/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SSAFY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SSAFY.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/2차원 Delta-Search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/2차원 Delta-Search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/부분집합.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/부분집합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/연습문제.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/연습문제.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/연습문제2_부분집합.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/연습문제2_부분집합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/이진검색.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/이진검색.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/전치행렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/Alogrithm Repo/전치행렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/test.py" afterDir="false" />
+    <list default="true" id="bddcbf41-dbf1-45e8-99c6-a2e0bf90f16c" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/A - 치킨댄스를 추는 곰곰이를 본 임스.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaekjoonRecord/B - 인사성 밝은 곰곰이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Dev-matching/다단계 칫솔 판매.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Lv.2/가장 큰 수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Lv.2/삼각 달팽이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Lv.3/예상 대진.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Lv.3/합승 택시 요금.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Lv.3/합승 택시 요금_alt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/카카오/경주로 건설.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/카카오/매칭 점수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/카카오/불량 사용자.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/카카오/주차 요금 계산.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/카카오/쿼드 압축 후 풀기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Lv.2/뉴스 클러스터.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Lv.2/뉴스 클러스터.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Lv.2/피로도.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Lv.2/피로도.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Lv.3/여행경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Lv.3/여행경로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/test2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +44,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SWEA" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/jhhan/OneDrive/문서/PycharmProject/계절학기"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\PycharmProjects\SSAFY\0216" />
