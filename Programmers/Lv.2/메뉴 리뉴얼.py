@@ -27,6 +27,3 @@ def solution(orders, course):
     answer = sorted(sum(course_menu, []))
 
     return answer
-
-
-print(solution(["XYZ", "XWY", "WXA"], [2, 3, 4]))

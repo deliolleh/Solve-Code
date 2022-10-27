@@ -14,7 +14,7 @@ def solution(enroll, referral, seller, amount):
     for idx1 in range(len(seller)):
         # 번 돈 추가
         get_money[seller[idx1]] += amount[idx1] * 100
-        # now <= 현재 파악하는 조직원
+        # now: 현재 파악하는 조직원
         now = seller[idx1]
         # 얻은 이익의 10%가 이익
         tip = (amount[idx1] * 100) // 10
@@ -30,12 +30,6 @@ def solution(enroll, referral, seller, amount):
                 now = master[now]
                 # 팁은 받은 금액에 대해서만 10%
                 tip //= 10
-
-    # for idx2 in range(len(enroll) - 1, -1, -1):
-    #     if get_money[enroll[idx2]] >= 10:
-    #         tip = get_money[enroll[idx2]] // 10
-    #         get_money[enroll[idx2]] -= tip
-    #         get_money[referral[idx2]] += tip
 
     # dict들의 value(이익금)만 list로 뽑아내기
     # center는 제외해야하므로 [1:]
