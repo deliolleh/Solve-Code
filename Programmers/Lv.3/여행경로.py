@@ -19,13 +19,20 @@ def solution(tickets):
         elif len(route) == len(answer):
             for idx2 in range(len(answer)):
                 if answer[idx2] != route[idx2]:
-                    if sorted([answer[idx2], route[idx2]]) != [answer[idx2], route[idx2]]:
+                    if sorted([answer[idx2], route[idx2]]) != [
+                        answer[idx2],
+                        route[idx2],
+                    ]:
                         answer = route
                     break
 
-    make_route(['ICN'])
+    make_route(["ICN"])
 
     return answer
 
 
-print(solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]))
+print(
+    solution(
+        [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL", "SFO"]]
+    )
+)

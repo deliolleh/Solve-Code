@@ -29,4 +29,3 @@ else:
             less_dist = min(less_dist, abs(int(N) - i2))
 
     print(less_dist)
-

@@ -1,5 +1,5 @@
 # 평면 초기화
-arr = [[0]*100 for _ in range(100)]
+arr = [[0] * 100 for _ in range(100)]
 
 # 네 개의 사각형이 x1, y1, x2, y2로 주어짐(x1 < x2, y1 < y2)
 for i in range(4):

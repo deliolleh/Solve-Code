@@ -9,4 +9,3 @@ for i in range(4):
         max_peo = peo
 
 print(max_peo)
-

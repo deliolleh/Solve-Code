@@ -9,7 +9,12 @@ def bfs(y, x):
             quit()
         for d in range(4):
             ny, nx = sy + dy[d], sx + dx[d]
-            if 0 <= ny < N and 0 <= nx < M and maze[ny][nx] == 1 and not visited[ny][nx]:
+            if (
+                0 <= ny < N
+                and 0 <= nx < M
+                and maze[ny][nx] == 1
+                and not visited[ny][nx]
+            ):
                 visited[ny][nx] = visited[sy][sx] + 1
                 que.append([ny, nx])
 

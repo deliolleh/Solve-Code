@@ -1,9 +1,9 @@
 sco = input()
 
-a = sum(list(map(int, sco[:len(sco) // 2])))
-b = sum(list(map(int, sco[len(sco) // 2:])))
+a = sum(list(map(int, sco[: len(sco) // 2])))
+b = sum(list(map(int, sco[len(sco) // 2 :])))
 
 if a == b:
-    print('LUCKY')
+    print("LUCKY")
 else:
-    print('READY')
+    print("READY")

@@ -30,6 +30,7 @@ def solution(n):
 
     return sum(arr, [])
 
+
 # --antoher
 
 

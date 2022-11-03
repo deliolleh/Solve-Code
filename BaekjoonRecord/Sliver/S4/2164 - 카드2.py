@@ -4,7 +4,7 @@ N = int(input())
 
 card = deque()
 # [N, N-1, ..., 2, 1]
-for i in range(1, N+1):
+for i in range(1, N + 1):
     card.appendleft(i)
 
 # 한장 남을 때 까지 반복

@@ -8,7 +8,7 @@ def n_room(height, width, number):
         for h in range(1, height + 1):
             if n == number:
                 if 0 < w < 10:
-                    return str(h) + '0' + str(w)
+                    return str(h) + "0" + str(w)
                 else:
                     return str(h) + str(w)
             n += 1

@@ -1,6 +1,6 @@
 from itertools import combinations
 
-vowel = ['a', 'e', 'i', 'o', 'u']
+vowel = ["a", "e", "i", "o", "u"]
 
 L, C = map(int, input().split())
 
@@ -23,4 +23,4 @@ for k in kind:
             el += 1
 
     if vo >= 1 and el >= 2:
-        print(*k, sep='')
+        print(*k, sep="")

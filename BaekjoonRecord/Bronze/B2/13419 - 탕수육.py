@@ -25,11 +25,11 @@ for i in range(T):
     re_one = say_a[1:].index(say_a[0])
 
     # Collect Repeat letter
-    for idx2 in range(re_one+1):
+    for idx2 in range(re_one + 1):
         result += say_a[idx2]
 
     # Print
-    print(''.join(result))
+    print("".join(result))
 
     # Using Same Var, Clear it
     result.clear()
@@ -42,4 +42,4 @@ for i in range(T):
     for idx2 in range(re_one + 1):
         result += say_b[idx2]
 
-    print(''.join(result))
+    print("".join(result))

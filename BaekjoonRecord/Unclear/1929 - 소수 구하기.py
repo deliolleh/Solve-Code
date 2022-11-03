@@ -3,7 +3,7 @@ import sys
 a, b = map(int, sys.stdin.readline().split())
 
 now = []
-for _ in range(a, b+1):
+for _ in range(a, b + 1):
     now.append(_)
 
 while len(now) != 0:
@@ -14,7 +14,7 @@ while len(now) != 0:
 
     if count == 1:
         print(now[0])
-        for num2 in range(a, b+1):
+        for num2 in range(a, b + 1):
             if num2 % now[0] == 0:
                 now.remove(num2)
 

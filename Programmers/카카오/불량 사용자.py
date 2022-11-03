@@ -13,7 +13,7 @@ def solution(user_id, banned_id):
                     return
                 # 밴된 유저의 패턴이 *이 아닐 때, 유저의 idx의 값과 같아야한다
                 for idx2 in range(len(banned_id[idx])):
-                    if banned_id[idx][idx2] == '*':
+                    if banned_id[idx][idx2] == "*":
                         continue
                     if arr[idx][idx2] != banned_id[idx][idx2]:
                         return
@@ -43,4 +43,8 @@ def solution(user_id, banned_id):
     return answer
 
 
-print(solution(["frodo", "fradi", "crodo", "abc123", "frodoc"], ["*rodo", "*rodo", "******"]))
+print(
+    solution(
+        ["frodo", "fradi", "crodo", "abc123", "frodoc"], ["*rodo", "*rodo", "******"]
+    )
+)

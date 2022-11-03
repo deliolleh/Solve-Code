@@ -1,4 +1,5 @@
 from math import factorial
+
 T = int(input())
 
 for t in range(T):

@@ -18,11 +18,11 @@ while True:
                     flag = 1
 
         else:
-            for i in range(len(num)//2):
-                if num[i] != num[-1-i]:
+            for i in range(len(num) // 2):
+                if num[i] != num[-1 - i]:
                     flag = 1
 
         if flag == 0:
-            print('yes')
+            print("yes")
         else:
-            print('no')
+            print("no")

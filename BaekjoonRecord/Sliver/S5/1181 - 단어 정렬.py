@@ -10,4 +10,4 @@ arr = list(set(arr))
 # sort 연습할만한 조건
 arr.sort(key=lambda x: (len(x), x))
 
-print(*arr, sep='\n')
+print(*arr, sep="\n")

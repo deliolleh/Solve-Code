@@ -2,7 +2,7 @@ from collections import deque
 
 
 def solution(board):
-    answer = 10 ** 9
+    answer = 10**9
     length = len(board)
 
     ey, ex = length, length
@@ -24,7 +24,11 @@ def solution(board):
                 ny, nx = y + my, x + mx
                 if 0 <= ny < length and 0 <= nx < length and not board[ny][nx]:
                     board[ny][nx] = 2
-                    if where == [0, 0] or abs(where[0]) == abs(my) and abs(where[1]) == abs(mx):
+                    if (
+                        where == [0, 0]
+                        or abs(where[0]) == abs(my)
+                        and abs(where[1]) == abs(mx)
+                    ):
                         new_where = [my, mx]
                         build(ny, nx, new_price, new_where)
 
@@ -46,7 +50,7 @@ def solution(board):
 def solution(board):
     length = len(board)
     direction = [[0, 1], [1, 0], [0, -1], [-1, 0]]
-    dp = [[[10 ** 9] * 4 for _ in range(length)] for __ in range(length)]
+    dp = [[[10**9] * 4 for _ in range(length)] for __ in range(length)]
 
     queue = deque()
     queue.append([0, 0, 0, 0])
@@ -67,6 +71,8 @@ def solution(board):
                     queue.append([new_x, new_y, new_m, i2])
 
     return min(dp[length - 1][length - 1])
+
+
 #     # x, y 순서가 바뀌면 값이 변함. 이유가 뭘까
 
 
@@ -97,6 +103,17 @@ def solution(board):
     return result * 100
 
 
-print(solution([[0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0, 0, 0],
-                [0, 0, 0, 1, 0, 0, 0, 1], [0, 0, 1, 0, 0, 0, 1, 0], [0, 1, 0, 0, 0, 1, 0, 0],
-                [1, 0, 0, 0, 0, 0, 0, 0]]))
+print(
+    solution(
+        [
+            [0, 0, 0, 0, 0, 0, 0, 1],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 1, 0, 0],
+            [0, 0, 0, 0, 1, 0, 0, 0],
+            [0, 0, 0, 1, 0, 0, 0, 1],
+            [0, 0, 1, 0, 0, 0, 1, 0],
+            [0, 1, 0, 0, 0, 1, 0, 0],
+            [1, 0, 0, 0, 0, 0, 0, 0],
+        ]
+    )
+)

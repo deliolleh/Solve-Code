@@ -1,7 +1,7 @@
 # 입력받는 값을 list형태로 받음
 Sen = list(input())
 # 알파벳 수만큼 리스트를 만듦
-alp_list = [0]*26
+alp_list = [0] * 26
 
 # 단어에서 가장 많이 쓴 알파벳 측정
 for let in Sen:
@@ -40,7 +40,7 @@ for i in range(len(alt_alp_list)):
         pass
 
 if overlap == 1:
-    print('?')
+    print("?")
 else:
     print(chr(most_use_index + 65))
 

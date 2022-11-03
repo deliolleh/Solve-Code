@@ -19,9 +19,9 @@ while len(stack) != 0:
     # 이를 맞추기 위해 1을 뺌
     cnt -= 1
 
-print('<', end='')
+print("<", end="")
 for idx in range(N):
     if idx != N - 1:
-        print(res[idx], end=', ')
+        print(res[idx], end=", ")
     else:
-        print(f'{res[idx]}>')
+        print(f"{res[idx]}>")

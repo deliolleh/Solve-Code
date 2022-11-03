@@ -1,1 +1,1 @@
-print('a' in [])
+print("a" in [])

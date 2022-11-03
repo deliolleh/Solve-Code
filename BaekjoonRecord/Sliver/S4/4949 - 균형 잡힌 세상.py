@@ -7,28 +7,28 @@ while True:
 
     balance = []
     for li in line:
-        if li == '(' or li == ')' or li == '[' or li == ']':
+        if li == "(" or li == ")" or li == "[" or li == "]":
             balance.append(li)
 
     while True:
         if len(balance) <= 1:
             if len(balance) == 0:
-                print('yes')
+                print("yes")
             else:
-                print('no')
+                print("no")
             break
 
         state = 1
-        for idx in range(len(balance)-1):
-            if balance[idx] == '(' and balance[idx+1] == ')':
-                balance = balance[:idx] + balance[idx+2:]
+        for idx in range(len(balance) - 1):
+            if balance[idx] == "(" and balance[idx + 1] == ")":
+                balance = balance[:idx] + balance[idx + 2 :]
                 state = 0
                 break
-            elif balance[idx] == '[' and balance[idx+1] == ']':
-                balance = balance[:idx] + balance[idx + 2:]
+            elif balance[idx] == "[" and balance[idx + 1] == "]":
+                balance = balance[:idx] + balance[idx + 2 :]
                 state = 0
                 break
 
         if state == 1:
-            print('no')
+            print("no")
             break

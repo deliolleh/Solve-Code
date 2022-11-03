@@ -2,7 +2,7 @@ def solution(enroll, referral, seller, amount):
     master = dict()
     get_money = dict()
     # 센터는 미리 입력
-    get_money['-'] = 0
+    get_money["-"] = 0
 
     for idx in range(len(enroll)):
         # 각 조직원들을 초기화
@@ -20,7 +20,7 @@ def solution(enroll, referral, seller, amount):
         tip = (amount[idx1] * 100) // 10
         while True:
             # tip이 1보다 작거나, 본인이 center이면 break
-            if tip < 1 or now == '-':
+            if tip < 1 or now == "-":
                 break
             else:
                 # 상납금 계산
@@ -38,6 +38,11 @@ def solution(enroll, referral, seller, amount):
     return answer
 
 
-print(solution(["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"],
-               ["-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"],
-               ["young", "john", "tod", "emily", "mary"], [12, 4, 2, 5, 10]))
+print(
+    solution(
+        ["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"],
+        ["-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"],
+        ["young", "john", "tod", "emily", "mary"],
+        [12, 4, 2, 5, 10],
+    )
+)

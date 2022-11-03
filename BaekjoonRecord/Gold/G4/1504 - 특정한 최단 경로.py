@@ -49,6 +49,7 @@ def dijsktra(start, end):
 
     return distance[end]
 
+
 # 경로 1 => 1 -> u -> v -> N
 sol1 = dijsktra(1, u) + dijsktra(u, v) + dijsktra(v, N)
 # 경로 2 => 1 -> v -> u -> N

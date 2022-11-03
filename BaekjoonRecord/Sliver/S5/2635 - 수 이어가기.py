@@ -3,7 +3,7 @@ max_len = 1
 max_seq = []
 
 if num > 0:
-    for first in range(1, num+1):
+    for first in range(1, num + 1):
         arr = [num, first]
         i = 2
 

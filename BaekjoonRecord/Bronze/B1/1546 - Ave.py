@@ -13,4 +13,4 @@ for i in range(len(Score)):
 for i in Score:
     new_ave = new_ave + i
 
-print(new_ave/len(Score))
+print(new_ave / len(Score))

@@ -7,8 +7,8 @@ total = 0
 for i in range(N):
     x, y = map(int, input().split())
 
-    for j in range(x, x+10):
-        for k in range(y, y+10):
+    for j in range(x, x + 10):
+        for k in range(y, y + 10):
             arr[k][j] += 1
 
 for i in arr:

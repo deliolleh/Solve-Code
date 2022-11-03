@@ -4,7 +4,7 @@ already = []
 cnt = 0
 while N > 0:
     mess = input()
-    if mess == 'ENTER':
+    if mess == "ENTER":
         already.clear()
     elif mess not in already:
         already.append(mess)

@@ -27,9 +27,9 @@ def solution(numbers):
     # 각 숫자의 가장 큰 자리의 수 1차 비교
     # 같은 경우 (43, 44 / 최대 자릿수 3 => 434343[0:3] = 434 444444[0:3] = 444)
     # 반복도 같은 경우(예: 30, 303 / 최대 자릿수 3 => 303030[0:3] = 303/ 303303303[0:3] = 303), 더 큰수가 앞으로
-    numbers.sort(key=lambda x: int((str(x) * (cnt + 1))[0:cnt + 1]), reverse=True)
+    numbers.sort(key=lambda x: int((str(x) * (cnt + 1))[0 : cnt + 1]), reverse=True)
     # 연결한 후 int화(0000같은 경우 제거)후 다시 string
-    answer = str(int(''.join(list(map(str, numbers)))))
+    answer = str(int("".join(list(map(str, numbers)))))
 
     return answer
 

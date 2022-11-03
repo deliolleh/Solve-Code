@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def dfs(n, differ):
     global visited, far_to_root, far_node
     cnt = 0

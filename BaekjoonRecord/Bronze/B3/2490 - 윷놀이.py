@@ -2,12 +2,12 @@ for i in range(3):
     wu = list(map(int, input().split()))
 
     if sum(wu) == 3:
-        print('A')
+        print("A")
     elif sum(wu) == 2:
-        print('B')
+        print("B")
     elif sum(wu) == 1:
-        print('C')
+        print("C")
     elif sum(wu) == 0:
-        print('D')
+        print("D")
     else:
-        print('E')
+        print("E")

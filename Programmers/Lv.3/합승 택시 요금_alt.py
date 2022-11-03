@@ -18,7 +18,9 @@ def solution(n, s, a, b, fares):
     for m_idx in range(n + 1):
         for d_idx in range(n + 1):
             for a_idx in range(n + 1):
-                graph[d_idx][a_idx] = min(graph[d_idx][a_idx], graph[d_idx][m_idx] + graph[m_idx][a_idx])
+                graph[d_idx][a_idx] = min(
+                    graph[d_idx][a_idx], graph[d_idx][m_idx] + graph[m_idx][a_idx]
+                )
 
     # 임의의 경유지 around에 대해, 시작점=> 경유지 => A, B까지의 비용까지의 최소합을 구한다
     answer = int(1e9)
@@ -28,6 +30,22 @@ def solution(n, s, a, b, fares):
     return answer
 
 
-print(solution(6, 4, 6, 2,
-               [[4, 1, 10], [3, 5, 24], [5, 6, 2], [3, 1, 41], [5, 1, 24], [4, 6, 50], [2, 4, 66], [2, 3, 22],
-                [1, 6, 25]]))
+print(
+    solution(
+        6,
+        4,
+        6,
+        2,
+        [
+            [4, 1, 10],
+            [3, 5, 24],
+            [5, 6, 2],
+            [3, 1, 41],
+            [5, 1, 24],
+            [4, 6, 50],
+            [2, 4, 66],
+            [2, 3, 22],
+            [1, 6, 25],
+        ],
+    )
+)

@@ -8,7 +8,7 @@ arr = [[0] * N for _ in range(N)]
 
 y, x = -1, 0
 d = 0
-now = N ** 2
+now = N**2
 while now > 0:
     ny, nx = y + dy[d], x + dx[d]
     if (0 <= ny < N and 0 <= nx < N) and not arr[ny][nx]:

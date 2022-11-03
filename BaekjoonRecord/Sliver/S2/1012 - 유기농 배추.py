@@ -13,7 +13,12 @@ def bfs(col, row):
         for d in range(4):
             ny = now[0] + dy[d]
             nx = now[1] + dx[d]
-            if 0 <= ny < N and 0 <= nx < M and field[ny][nx] == 1 and not visited[ny][nx]:
+            if (
+                0 <= ny < N
+                and 0 <= nx < M
+                and field[ny][nx] == 1
+                and not visited[ny][nx]
+            ):
                 visited[ny][nx] = 1
                 que.append([ny, nx])
 

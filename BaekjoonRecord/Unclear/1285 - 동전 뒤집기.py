@@ -10,7 +10,7 @@ while True:
     for i in range(N):
         cnt_row = 0
         for j in range(N):
-            if arr[i][j] == 'T':
+            if arr[i][j] == "T":
                 cnt_row += 1
         if cnt_row > max_cnt_row:
             max_cnt_row = cnt_row
@@ -21,7 +21,7 @@ while True:
     for j2 in range(N):
         cnt_col = 0
         for i2 in range(N):
-            if arr[i2][j2] == 'T':
+            if arr[i2][j2] == "T":
                 cnt_col += 1
         if cnt_col > max_cnt_col:
             max_cnt_col = cnt_col
@@ -29,16 +29,16 @@ while True:
 
     if max_cnt_row > max_cnt_col:
         for index in range(N):
-            arr[idx1][index] = 'T' if arr[idx1][index] == 'H' else 'H'
+            arr[idx1][index] = "T" if arr[idx1][index] == "H" else "H"
 
     else:
         for index2 in range(N):
-            arr[index2][idx] = 'T' if arr[index2][idx] == 'H' else 'H'
+            arr[index2][idx] = "T" if arr[index2][idx] == "H" else "H"
 
     change = 0
     for i3 in range(N):
         for j3 in range(N):
-            if arr[i3][j3] == 'T':
+            if arr[i3][j3] == "T":
                 change += 1
 
     if change >= min_cnt:

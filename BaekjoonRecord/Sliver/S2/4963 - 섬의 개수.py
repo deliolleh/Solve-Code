@@ -6,7 +6,12 @@ def bfs(i, j):
         sy, sx = que.pop(0)
         for d in range(8):
             ny, nx = sy + dy[d], sx + dx[d]
-            if 0 <= ny < col and 0 <= nx < row and arr[ny][nx] == 1 and not visited[ny][nx]:
+            if (
+                0 <= ny < col
+                and 0 <= nx < row
+                and arr[ny][nx] == 1
+                and not visited[ny][nx]
+            ):
                 visited[ny][nx] = 1
                 que.append([ny, nx])
 

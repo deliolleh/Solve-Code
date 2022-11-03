@@ -8,7 +8,7 @@ def solution(n, s, a, b, fares):
     short_way = []
     for arrive in [a, b]:
         arr = []
-        less_cash = [10 ** 10]
+        less_cash = [10**10]
         visited = [0] * (n + 1)
         visited[s] = 1
 
@@ -33,16 +33,32 @@ def solution(n, s, a, b, fares):
     differ = 0
     for idx in range(1, len(short_way[0][0])):
         if short_way[0][0][idx] != short_way[1][0][idx]:
-            answer += sum(short_way[0][1][idx - 1:]) + sum(short_way[1][1][idx - 1:])
+            answer += sum(short_way[0][1][idx - 1 :]) + sum(short_way[1][1][idx - 1 :])
             break
         else:
             answer += short_way[0][1][idx - 1]
     else:
-        answer += short_way[1][1][len(short_way[0]) - 1:]
+        answer += short_way[1][1][len(short_way[0]) - 1 :]
 
     return answer
 
 
-print(solution(6, 4, 6, 2,
-               [[4, 1, 10], [3, 5, 24], [5, 6, 2], [3, 1, 41], [5, 1, 24], [4, 6, 50], [2, 4, 66], [2, 3, 22],
-                [1, 6, 25]]))
+print(
+    solution(
+        6,
+        4,
+        6,
+        2,
+        [
+            [4, 1, 10],
+            [3, 5, 24],
+            [5, 6, 2],
+            [3, 1, 41],
+            [5, 1, 24],
+            [4, 6, 50],
+            [2, 4, 66],
+            [2, 3, 22],
+            [1, 6, 25],
+        ],
+    )
+)

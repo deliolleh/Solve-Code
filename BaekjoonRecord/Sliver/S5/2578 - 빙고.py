@@ -44,7 +44,7 @@ for s in say:
         cross2 = []
         for i in range(5):
             cross1.append(man[i][i])
-            cross2.append(man[4-i][i])
+            cross2.append(man[4 - i][i])
 
         if cross1 == [0] * 5:
             line += 1

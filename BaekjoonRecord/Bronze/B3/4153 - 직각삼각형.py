@@ -7,6 +7,6 @@ while True:
     line_list.sort()
 
     if line_list[0] ** 2 + line_list[1] ** 2 == line_list[2] ** 2:
-        print('right')
+        print("right")
     else:
-        print('wrong')
+        print("wrong")

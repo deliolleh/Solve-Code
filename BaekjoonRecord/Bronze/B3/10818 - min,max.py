@@ -20,4 +20,4 @@ for i in B[1:]:
     elif i < min_num:
         min_num = i
 
-print(min_num, max_num, sep=' ')
+print(min_num, max_num, sep=" ")

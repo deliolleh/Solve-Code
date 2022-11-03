@@ -19,14 +19,14 @@ N = int(input())
 
 cnt = 0
 
-for num in range(1, N+1):
-    if 1<= num <= 99:
+for num in range(1, N + 1):
+    if 1 <= num <= 99:
         cnt += 1
     else:
         num_100 = num // 100
         num_10 = (num % 100) // 10
         num_1 = num % 10
-        if (num_100-num_10) == (num_10-num_1):
+        if (num_100 - num_10) == (num_10 - num_1):
             cnt += 1
 
 print(cnt)

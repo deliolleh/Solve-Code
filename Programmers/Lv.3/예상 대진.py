@@ -1,5 +1,6 @@
 # 형태가 완전이진트리이다
 
+
 def solution(n, a, b):
     # 마지막 레벨 idx로 위치 조정
     na = n + a - 1
@@ -14,6 +15,7 @@ def solution(n, a, b):
         cnt += 1
 
     return cnt
+
 
 # ---- another
 

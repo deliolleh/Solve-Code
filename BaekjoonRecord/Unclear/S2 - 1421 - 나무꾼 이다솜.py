@@ -7,7 +7,7 @@ for idx in range(N):
 able = min(lumbers)
 
 total = 0
-for i in range(1, able+1):
+for i in range(1, able + 1):
     tem = 0
     for lumber in lumbers:
         qun = lumber // i

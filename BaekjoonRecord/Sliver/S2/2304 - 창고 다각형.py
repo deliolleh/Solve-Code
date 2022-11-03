@@ -12,11 +12,10 @@ for n in range(N):
         max_h = h
         max_h_idx = l
 
-for idx in range(len(arr)-1):
-    if idx < max_h_idx and arr[idx] > arr[idx+1]:
-        arr[idx+1] = arr[idx]
+for idx in range(len(arr) - 1):
+    if idx < max_h_idx and arr[idx] > arr[idx + 1]:
+        arr[idx + 1] = arr[idx]
     elif idx > max_h_idx and arr[idx] < max(arr[idx:]):
         arr[idx] = max(arr[idx:])
 
 print(sum(arr))
-

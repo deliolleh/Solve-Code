@@ -11,7 +11,7 @@ while True:
     bit.append(str(dec % 2))
     dec //= 2
     if dec == 1:
-        bit.append('1')
+        bit.append("1")
         break
 
-print(''.join(bit.reverse()))
+print("".join(bit.reverse()))

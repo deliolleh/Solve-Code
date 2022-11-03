@@ -29,7 +29,3 @@ for tc in range(int(input())):
             else:
                 M -= 1
             docu.append(docu.popleft())
-
-
-
-

@@ -17,7 +17,7 @@ def solution(arr):
     return answer
 
 
-solution([[1,1,0,0],[1,0,0,0],[1,0,0,1],[1,1,1,1]])
+solution([[1, 1, 0, 0], [1, 0, 0, 0], [1, 0, 0, 1], [1, 1, 1, 1]])
 
 
 def solution(arr):
@@ -26,14 +26,15 @@ def solution(arr):
     quad(arr, answer, len(arr))
     return answer
 
+
 def quad(arr, s, n):
     x, y, tg = s[0], s[1], arr[s[0]][s[1]]
     for i in range(n):
         for j in range(n):
-            if arr[x+i][y+j] != tg:
-                quad(arr, [x, y], n//2)
-                quad(arr, [x, y+n//2], n//2)
-                quad(arr, [x+n//2, y], n//2)
-                quad(arr, [x+n//2, y+n//2], n//2)
+            if arr[x + i][y + j] != tg:
+                quad(arr, [x, y], n // 2)
+                quad(arr, [x, y + n // 2], n // 2)
+                quad(arr, [x + n // 2, y], n // 2)
+                quad(arr, [x + n // 2, y + n // 2], n // 2)
                 return
     answer[tg] += 1

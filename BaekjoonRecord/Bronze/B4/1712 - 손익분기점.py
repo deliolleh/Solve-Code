@@ -1,4 +1,3 @@
-
 fixed_cost, product_cost, benefit = map(int, input().split())
 
 
@@ -11,4 +10,4 @@ else:
     # i: 손해와 이득의 합이 0인 실수의 정수형(i의 소수부가 0이었어도 i일 때는 손익이 0이다)
     i = int(fixed_cost / (benefit - product_cost))
     # i < 이익발생 < i+1이므로 정수중에서 손익분기점을 넘는 최소값은 i+1이다
-    print(i+1)
+    print(i + 1)

@@ -13,7 +13,7 @@ def solution(fees, records):
         # 시분을 분으로 통일
         in_time = int(time[0:2]) * 60 + int(time[3:])
         # IN => 입차 시간
-        if check == 'IN':
+        if check == "IN":
             cars[car_num] = in_time
         # OUT => 출차, 기록된 입차시간만큼을 뺌
         else:

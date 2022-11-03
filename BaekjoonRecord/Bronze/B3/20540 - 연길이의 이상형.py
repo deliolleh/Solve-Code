@@ -1,7 +1,7 @@
 # input MBTI
 mbti = input()
 
-total = [['I', "E"], ['S', "N"], ['T', 'F'], ['P','J']]
+total = [["I", "E"], ["S", "N"], ["T", "F"], ["P", "J"]]
 result = []
 
 for idx in range(len(mbti)):
@@ -11,4 +11,4 @@ for idx in range(len(mbti)):
 # for one in result:
 #     print(one, end='')
 
-print(''.join(result))
+print("".join(result))

@@ -14,6 +14,6 @@ while True:
         print(len(res))
         break
     else:
-        plus = ''.join(reversed(list(map(str, letter[0:i]))))
+        plus = "".join(reversed(list(map(str, letter[0:i]))))
         res = letter + plus
         i += 1

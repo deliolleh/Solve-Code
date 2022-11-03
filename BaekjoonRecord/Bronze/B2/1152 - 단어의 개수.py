@@ -4,9 +4,9 @@ Sen = list(input())
 cnt = 0
 
 for i in range(len(Sen)):
-    if i == 0 and Sen[0] != ' ':
+    if i == 0 and Sen[0] != " ":
         cnt += 1
-    elif Sen[i-1] == ' ' and Sen[i] != ' ':
+    elif Sen[i - 1] == " " and Sen[i] != " ":
         cnt += 1
     else:
         pass

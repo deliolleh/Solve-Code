@@ -1,7 +1,7 @@
 import sys
 
 x, y = map(int, sys.stdin.readline().split())
-arr = [[0] * x for _ in range(y+1)]
+arr = [[0] * x for _ in range(y + 1)]
 
 N = int(sys.stdin.readline())
 

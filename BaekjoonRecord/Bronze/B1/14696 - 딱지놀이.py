@@ -9,11 +9,11 @@ def comparsion(a, b):
 
     for j in range(4, -1, -1):
         if count_a[j] > count_b[j]:
-            return 'A'
+            return "A"
         elif count_a[j] < count_b[j]:
-            return 'B'
+            return "B"
 
-    return 'D'
+    return "D"
 
 
 N = int(input())
@@ -23,4 +23,3 @@ for i in range(N):
     B = list(map(int, input().split()))
 
     print(comparsion(A[1:], B[1:]))
-

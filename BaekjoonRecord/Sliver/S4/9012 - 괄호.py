@@ -10,16 +10,15 @@ for i in range(T):
     while True:
         if len(data) == 0:
             if vsp_gauge == 0:
-                print('YES')
+                print("YES")
             else:
-                print('NO')
+                print("NO")
             break
         now = data.pop()
-        if now == ')':
+        if now == ")":
             vsp_gauge += 1
         else:
             vsp_gauge -= 1
             if vsp_gauge < 0:
-                print('NO')
+                print("NO")
                 break
-

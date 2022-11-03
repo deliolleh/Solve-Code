@@ -21,5 +21,5 @@ N, M = map(int, sys.stdin.readline().split())
 
 po_list = []
 
-for i in range(1, N+1):
+for i in range(1, N + 1):
     po_list = []

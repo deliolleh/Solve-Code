@@ -6,13 +6,13 @@ def solution(str1, str2):
     set2 = []
     for idx1 in range(len(str1) - 1):
         # 2단어씩 뽑아내는데
-        element1 = ''.join(str1[idx1:idx1 + 2])
+        element1 = "".join(str1[idx1 : idx1 + 2])
         # 두 단어 모두 문자일 때 set에 추가
         if element1.isalpha():
             set1.append(element1)
 
     for idx2 in range(len(str2) - 1):
-        element2 = ''.join(str2[idx2:idx2 + 2])
+        element2 = "".join(str2[idx2 : idx2 + 2])
         if element2.isalpha():
             set2.append(element2)
 
@@ -49,4 +49,3 @@ def solution(str1, str2):
     except ZeroDivisionError:
         answer = 65536
     return answer
-

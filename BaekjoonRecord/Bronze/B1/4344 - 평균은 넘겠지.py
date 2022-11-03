@@ -14,6 +14,6 @@ for tc in range(TC):
             pass_stu += 1
 
     # 백분율로 정리
-    pass_per = pass_stu/students * 100
+    pass_per = pass_stu / students * 100
 
-    print(f'{pass_per:.3f}%')
+    print(f"{pass_per:.3f}%")

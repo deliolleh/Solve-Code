@@ -16,7 +16,7 @@ print(total)
 
 # 순서가 고차항부터 내려온다고 가정했을 때
 # import sys
-# 
+#
 # total = 0
 # N, x = map(int, sys.stdin.readline().split())
 # for n in range(N + 1):

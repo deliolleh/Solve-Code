@@ -1,5 +1,6 @@
 import sys
-sys.setrecursionlimit(10 ** 8)
+
+sys.setrecursionlimit(10**8)
 
 
 def before(num):
@@ -24,6 +25,7 @@ def before(num):
                 if visited[no] == 0:
                     visited[no] = 1
                     find_long(no, l + long)
+
     find_long(num, 0)
 
     return r, diff

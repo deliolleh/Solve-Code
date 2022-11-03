@@ -2,9 +2,9 @@ music = list(map(int, input().split()))
 # 마주한 값 차이가 |1|일 때만 등록, 나머지는 0으로 초기화하고 break
 gap = 0
 
-for i in range(0, len(music)-1):
+for i in range(0, len(music) - 1):
     # 마주한 인덱스 값 사이의 차이 측정
-    diff = music[i] - music[i+1]
+    diff = music[i] - music[i + 1]
     # 한번이라도 차이가 1 이상이면 바로 break
     if abs(diff) != 1:
         gap = 0
@@ -18,8 +18,8 @@ for i in range(0, len(music)-1):
         gap = diff
 
 if gap == -1:
-    print('ascending')
+    print("ascending")
 elif gap == 1:
-    print('descending')
+    print("descending")
 else:
-    print('mixed')
+    print("mixed")

@@ -8,7 +8,7 @@ def solution(orders, course):
             for order in orders:
                 ideas = combinations(order, cnt)
                 for idea in ideas:
-                    new = ''.join(sorted(idea))
+                    new = "".join(sorted(idea))
                     if menus.get(new, 0):
                         menus[new] += 1
                     else:

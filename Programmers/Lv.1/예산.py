@@ -14,7 +14,7 @@ def solution(d, budget):
     return max_cnt
 
 
-for tc in range(1, int(input())+1):
+for tc in range(1, int(input()) + 1):
     a = list(map(int, input().split()))
 
     b = int(input())

@@ -23,7 +23,11 @@ def check_get_gain():
             # 2 => 2루 출루
             elif stage == 2:
                 score += b2 + b3
-                b1, b2, b3, = 0, 1, b1
+                b1, b2, b3, = (
+                    0,
+                    1,
+                    b1,
+                )
 
             # 3 => 3루 출루
             elif stage == 3:

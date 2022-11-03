@@ -11,6 +11,6 @@ for i in range(len(peo)):
     if i == 0:
         continue
     else:
-        peo[i] += peo[i-1]
+        peo[i] += peo[i - 1]
 
 print(sum(peo))

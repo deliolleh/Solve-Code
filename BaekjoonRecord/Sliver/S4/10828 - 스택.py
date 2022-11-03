@@ -1,4 +1,5 @@
 import sys
+
 # 명령의 수
 N = int(sys.stdin.readline())
 # 스택은 순서가 있으므로 가장 유사한 리스트 활용
@@ -11,15 +12,15 @@ def top():
     if len(stack) != 0:
         print(stack[-1])
     else:
-        print('-1')
+        print("-1")
 
 
 def empty():
     # empty: 스택이 비어 있으면 1, 아니면 0 출력
     if len(stack) == 0:
-        print('1')
+        print("1")
     else:
-        print('0')
+        print("0")
 
 
 def size():
@@ -42,13 +43,13 @@ def push(x):
 
 for i in range(N):
     order = sys.stdin.readline().split()
-    if order[0] == 'push':
+    if order[0] == "push":
         push(order[1])
-    elif order[0] == 'pop':
+    elif order[0] == "pop":
         pop()
-    elif order[0] == 'size':
+    elif order[0] == "size":
         size()
-    elif order[0] == 'empty':
+    elif order[0] == "empty":
         empty()
     else:
         top()

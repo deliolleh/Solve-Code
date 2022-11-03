@@ -6,6 +6,6 @@ for i in range(T):
     num = int(B)
     for one in C:
         for j in range(num):
-            print(one, end='')
-    if i != T-1:
+            print(one, end="")
+    if i != T - 1:
         print()

@@ -12,8 +12,8 @@ while True:
         N -= 1
 
 total_s = str(total)
-for idx in range(len(total_s)-1, 0, -1):
-    if total_s[idx] == '0':
+for idx in range(len(total_s) - 1, 0, -1):
+    if total_s[idx] == "0":
         num_0 += 1
     else:
         break

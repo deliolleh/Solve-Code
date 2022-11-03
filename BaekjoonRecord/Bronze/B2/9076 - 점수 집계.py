@@ -3,6 +3,6 @@ for tc in range(1, int(input()) + 1):
 
     score = score[1:4]
     if max(score) - min(score) >= 4:
-        print('KIN')
+        print("KIN")
     else:
         print(sum(score))
