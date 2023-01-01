@@ -21,6 +21,7 @@
 #     return answer
 
 
+# 누적합
 def solution(board, skills):
     for skill in skills:
         mode, r1, c1, r2, c2, degree = skill
@@ -32,9 +33,7 @@ def solution(board, skills):
                     board[col][row] += degree
     answer = 0
     for bo in board:
-        for idx in range(len(bo)):
-            if bo[idx] > 0:
-                answer += 1
+        bo.count()
 
     return answer
 
