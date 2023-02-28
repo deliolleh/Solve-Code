@@ -1,0 +1,10 @@
+chass = list(map(int, input().split()))
+update = list()
+update.append(1 - chass[0])
+update.append(1 - chass[1])
+update.append(2 - chass[2])
+update.append(2 - chass[3])
+update.append(2 - chass[4])
+update.append(8 - chass[5])
+
+print(*update)
