@@ -1,32 +1,21 @@
-from itertools import combinations
+def dif(x):
+    return x ** 2 - (x-1) ** 2
 
+before = 0
+before_gap = 0
 
-def solution(orders, course):
-    menus = dict()
-    for cnt in course:
-        if list(map(lambda x: len(x) >= cnt, orders)).count(True) > 1:
-            for order in orders:
-                ideas = combinations(order, cnt)
-                for idea in ideas:
-                    new = "".join(sorted(idea))
-                    if menus.get(new, 0):
-                        menus[new] += 1
-                    else:
-                        menus[new] = 1
+i = 2
+while i < 10 ** 4:
+    now = dif(i)
+    if before != 0:
+        now_gap = now - before
+        if before_gap != 0:
+            if now_gap - before_gap != 2:
+                print("get difference ", now)
+                break
+            before_gap = now_gap
 
-    course_cnt = [0] * (course[-1] + 1)
-    course_menu = [[] for _ in range(course[-1] + 1)]
-    for key, value in menus.items():
-        if course_cnt[len(key)] < value and value > 1:
-            course_cnt[len(key)] = value
-            course_menu[len(key)].clear()
-            course_menu[len(key)].append(key)
-        elif course_cnt[len(key)] == value:
-            course_menu[len(key)].append(key)
+    before = now
+    i += 1
 
-    answer = sorted(sum(course_menu, []))
-
-    return answer
-
-
-print(solution(["XYZ", "XWY", "WXA"], [2, 3, 4]))
+print("DONE")
